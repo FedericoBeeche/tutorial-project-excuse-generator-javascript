@@ -2,8 +2,27 @@ body {
     background-color: lightslategrey;
 }
 
+button {
+    border: none;
+    border-radius: 4px;
+    background-color: lightseagreen;
+    margin: 10px 0px 0px 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+button:hover {
+    border: 2px solid lightsalmon;
+    background-color: mediumpurple;
+}
+
+button:active {
+    background-color: mediumpurple;
+    color: orangered;
+}
+
 #excuse {
     font-family: 'Libre Baskerville', serif;
     font-size: 35px;
     color: white;
 }
+

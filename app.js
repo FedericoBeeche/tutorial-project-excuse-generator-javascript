@@ -1,8 +1,11 @@
-window onLoad(){
-    document.querySelector('#excuse').innerHTML = generateExcuse() {
-        }
+window.onload = function funcionID() {
+    document.querySelector('#excuseButton').addEventListener("click", function listener() {
+        document.querySelector('#excuse').innerHTML = generateExcuse();
+    })
 
-function generateExcuse(){ 
+}
+
+function generateExcuse() {
 
     let who = ['My dad', 'My wife', 'My dog', 'His cat', 'Her pet lizard'];
     let action = ['ate', 'pooped', 'peed', 'threw', 'hid', 'burned'];
@@ -15,5 +18,5 @@ function generateExcuse(){
     let whenStr = Math.floor(Math.random() * when.length);
 
     return who[whoStr] + ' ' + action[actionStr] + ' ' + what[whatStr] + ' ' + when[whenStr]
-    
+
 }    
