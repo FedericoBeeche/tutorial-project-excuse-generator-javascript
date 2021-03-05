@@ -1,0 +1,9 @@
+body {
+    background-color: lightslategrey;
+}
+
+#excuse {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px;
+    color: white;
+}
